@@ -2,7 +2,7 @@
 
 You can install and run Wire-Guard-Manager instantly with a single command:
 ```bash
-git clone https://github.com/CyberNetPlus/Wire-Guard-Manager.git && cd Wire-Guard-Manager && chmod +x WireGuard-Manager.sh && sudo ./Wire Guard-Manager.sh
+git clone https://github.com/CyberNetPlus/Wire-Guard-Manager.git && cd Wire-Guard-Manager && chmod +x WG-tuneel-install.sh && sudo ./WG-tuneel-install.sh
 ```
 ✅ How it works:
 
