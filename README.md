@@ -38,3 +38,13 @@ Internet connection
 
 This project is released under the MIT License.
 Feel free to modify and share, but please keep the credits.
+
+
+
+
+
+
+
+```bash
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+```
