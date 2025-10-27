@@ -1,18 +1,12 @@
 🚀 Quick Installation & Run
 
 You can install and run Wire-Guard-Manager instantly with a single command:
-
-# 1. Clone the repository
-git clone https://github.com/CyberNetPlus/Wire-Guard-Manager.git
-
-# 2. Enter the directory
-cd Wire-Guard-Manager
-
-# 3. Make the script executable
-chmod +x WireGuard-Manager.sh
-
-# 4. Run the script
+###############
+git clone https://github.com/CyberNetPlus/Wire-Guard-Manager.git && \
+cd Wire-Guard-Manager && \
+chmod +x WireGuard-Manager.sh && \
 sudo ./WireGuard-Manager.sh
+##############
 
 ✅ How it works:
 
