@@ -1,7 +1,8 @@
 #!/bin/bash
 #───────────────────────────────────────────────
 # WireGuard Manager v2.5 — Full English Menu
-# Author: Mikhaieel
+# Author: Cyber Net Plus (Babak Khedri) 
+# YouTube: https://www.youtube.com/@Cyber_Net_Plus
 #───────────────────────────────────────────────
 
 CONFIG_DIR="/etc/wireguard"
@@ -35,7 +36,9 @@ install_wireguard() {
 
 generate_config() {
     echo -e "${CYAN}╔════════════════════════════════════════════════════╗"
-    echo -e "║             Generate WireGuard Configuration       ║"
+    echo -e "║             Generate WireGuard Configuration              ║"
+    echo -e "║       Author: Cyber Net Plus (Babak Khedri)               ║"
+    echo -e "║    YouTube: https://www.youtube.com/@Cyber_Net_Plus       ║"
     echo -e "╚════════════════════════════════════════════════════╝${RESET}"
 
     cd "$CONFIG_DIR" || exit 1
