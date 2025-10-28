@@ -36,7 +36,7 @@ install_wireguard() {
 
 generate_config() {
     echo -e "${CYAN}╔════════════════════════════════════════════════════╗"
-    echo -e "║             Generate WireGuard Configuration              ║"
+    echo -e "║                TUNNEL CYBER-WireGuard                     ║"
     echo -e "║       Author: Cyber Net Plus (Babak Khedri)               ║"
     echo -e "║    YouTube: https://www.youtube.com/@Cyber_Net_Plus       ║"
     echo -e "╚════════════════════════════════════════════════════╝${RESET}"
