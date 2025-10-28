@@ -44,9 +44,9 @@ generate_config() {
     wg genkey | tee privatekey | wg pubkey > publickey
 
     PRIVATE_KEY=$(cat privatekey)
-    read -p "Enter MikroTik PublicKey: " PUBLIC_KEY_MICROTIK
-    read -p "Enter MikroTik Public IP: " MIKROTIK_IP
-    read -p "Enter MikroTik Port (e.g., 51820): " MIKROTIK_PORT
+    read -p "Enter MikroTik PublicKey: " PUBLIC_KEY_server_B
+    read -p "Enter MikroTik Endpoint IP: " server-b-Endpoint
+    read -p "Enter MikroTik Port (e.g., 51820): " server_PORT
     read -p "Enter Server A Address (e.g., 10.100.100.2/24): " SERVER_A_IP
     read -p "Enter Server A Listening Port (or press Enter for default $DEFAULT_PORT): " SERVER_A_PORT
     SERVER_A_PORT=${SERVER_A_PORT:-$DEFAULT_PORT}
@@ -61,8 +61,8 @@ ListenPort = $SERVER_A_PORT
 #DNS = 8.8.8.8
 
 [Peer]
-PublicKey = $PUBLIC_KEY_MICROTIK
-Endpoint = $MIKROTIK_IP:$MIKROTIK_PORT
+PublicKey = $PUBLIC_KEY_server_B
+Endpoint = $server-b-Endpoint:$serverB_PORT
 AllowedIPs = $SERVER_B_IP
 PersistentKeepalive = 25
 EOF
